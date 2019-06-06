@@ -4,6 +4,8 @@ x.y.z Release notes (yyyy-MM-dd)
 * Add support for Xcode 11 Beta 1. Xcode betas are only supported when building
   from source, and not when using a prebuilt framework.
   ([PR #6164](https://github.com/realm/realm-cocoa/pull/6164)).
+* Add Codable conformance to RealmOptional and List, and Encodable conformance to Results.
+  ([PR #6172](https://github.com/realm/realm-cocoa/pull/6172)).
 
 ### Fixed
 * <How to hit and notice issue? what was the impact?> ([#????](https://github.com/realm/realm-js/issues/????), since v?.?.?)
