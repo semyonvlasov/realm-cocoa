@@ -1352,7 +1352,7 @@ void QueryBuilder::apply_function_expression(RLMObjectSchema *objectSchema, NSEx
 void QueryBuilder::apply_predicate(NSPredicate *predicate, RLMObjectSchema *objectSchema)
 {
     // Compound predicates.
-    if ([predicate isMemberOfClass:[NSCompoundPredicate class]]) {
+    if ([predicate isKindOfClass:[NSCompoundPredicate class]]) {
         NSCompoundPredicate *comp = (NSCompoundPredicate *)predicate;
 
         switch ([comp compoundPredicateType]) {
